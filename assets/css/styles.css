@@ -1,0 +1,77 @@
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.header{
+    background-color: #655A7C;
+}
+
+.headerLogo{
+    max-width: 120px;
+}
+
+footer{
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li.title {
+    font-weight: bold;
+}
+
+ul li.date {
+    color: #AFC1D6;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+    font-family: "jersey 10";
+}
+
+.newsContainer h2{
+    font-size: xx-large;
+    padding-top: 10px;
+    color: white;
+    font-family: "jersey 10";
+}
+
+.newsContainer a[target="_blank"]{
+    font-size: large;
+}
+
+.newsContainer p{
+    padding-bottom: 10px;
+}
+
+.newsItem{
+    background-color: #afc1d663;
+    border-style: none;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #AB92BF;
+}
+
+.btn{
+    background-color: #AFC1D6;
+    margin-bottom: 5%x;
+    width: 150px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #655A7C;
+    color: white;
+    transform: scale(1.1);
+}
