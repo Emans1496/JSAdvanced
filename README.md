@@ -1,2 +1,0 @@
-# JSAdvanced
-Hacker News Explorer
