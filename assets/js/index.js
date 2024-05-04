@@ -1,6 +1,9 @@
+import '../css/styles.css';
+import hackerImage from '../img/hacker.png'; 
+import logowhiteImage from '../img/logowhite.png';
 document.addEventListener('DOMContentLoaded', async function () {
-    let loadedNewsIds = [];
-
+    
+        let loadedNewsIds = [];
     async function fetchLatestNewsIds(startIndex = 0, count = 10) {
         const apiUrl = 'https://hacker-news.firebaseio.com/v0/newstories.json';
 
@@ -77,4 +80,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     }
     document.getElementById('loadMoreBtn').addEventListener('click', loadMoreNews);
+    
 });
+
