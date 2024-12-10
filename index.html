@@ -28,13 +28,21 @@
       <p>Explore the latest news from the tech world with Hacker News Explorer. Stay updated with the most recent developments,
          innovations, and discussions in the technology sphere. Our platform provides you with a curated selection of the top 10 news articles,
           handpicked from Hacker News. Dive into insightful articles, discover groundbreaking projects, and join the conversation today. 
-          Start your journey with Hacker News Explorer and stay ahead in the fast-paced world of technology.</p</div>
+          Start your journey with Hacker News Explorer and stay ahead in the fast-paced world of technology.</p></div>
     <div class="col-md-3"></div>
   </div>
   <div class="row">
     <div class="col-md-3"></div>
-    <div class="col-md-6 p-3 mb-5 text-center">
-      <button id="loadMoreBtn" class="btn">Load more</button>
+    <div class="col-md-6 p-3 mb-2 text-center">
+      <select id="categorySelect" class="form-select">
+        <option value="newstories">Latest news</option>
+        <option value="topstories">Popular news</option>
+        <option value="beststories">Best news</option>
+        <option value="askstories">Ask HNs</option>
+        <option value="showstories">Show HNs</option>
+        <option value="jobstories">Jobs</option>
+      </select>
+      <button id="loadMoreBtn" class="btn mt-3">Load more</button>
     </div>
     <div class="col-md-3"></div>
   </div>
@@ -46,10 +54,6 @@
           <img src="assets/img/logowhite.png" alt="logo" class="headerLogo"></a>
       </div>
   </footer>
-
-
-
-
 
   <script src="assets/js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
